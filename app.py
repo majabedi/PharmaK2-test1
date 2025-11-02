@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 from extract_model import extract_pk_json
 from simulate import simulate
 
-st.set_page_config(page_title="PharmaK2 (OpenAI)", layout="centered")
+st.set_page_config(page_title="PharmaK3 (OpenAI)", layout="centered")
 st.title("PharmaK2 – PK model extractor (OpenAI)")
 
 default_text = """We consider a one-compartment model with first-order elimination.
